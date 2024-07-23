@@ -40,7 +40,7 @@ namespace YimMenu::Submenus
 			}
 		};
 
-		std::map<uint8_t, Player, ComparePlayerNames> sortedPlayers(YimMenu::Players::GetPlayers().begin(),
+		std::multimap<uint8_t, Player, ComparePlayerNames> sortedPlayers(YimMenu::Players::GetPlayers().begin(),
 		    YimMenu::Players::GetPlayers().end());
 
 		if (external)

@@ -41,6 +41,8 @@ namespace YimMenu::Submenus
 				data->InsertChars(0, newText.c_str());
 			}
 		}
+
+		return 0;
 	}
 
 	void PedSpawnerGroup()
